@@ -1,0 +1,23 @@
+{% extends 'customers/base.html' %}
+
+{% block content %}
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10 col-sm-12 text-center mb-4">
+        <h1 class="display-4 font-weight-bold mb-3">Online Food Delivery Service</h1>
+        <p class="lead">Get your favorite food delivered to your doorstep. Browse our menu and place your order now!</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-5 col-md-8 col-sm-12">
+        <div class="card rounded-lg border-0 shadow-sm">
+          <div class="card-body text-center">
+            <h2 class="font-weight-bold mb-3">Place an Order!</h2>
+            <a href="{% url 'order' %}" class="btn btn-primary btn-lg btn-block">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
