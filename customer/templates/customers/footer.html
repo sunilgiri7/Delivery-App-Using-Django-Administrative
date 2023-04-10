@@ -1,6 +1,13 @@
-<footer class='page-footer font-small black fixed-bottom'>
-    <div class='footer-copyright text-center py-3'>&copy; 2023 Copyright:
-        <a href='http://localhost:8000'>Deliver<a/>
-            <a class='ml-3' href='{% url 'logout' %}'>Restaurant Logout</a>
+<footer class="page-footer font-small black fixed-bottom" style="padding-top: 15px; padding-bottom: 20px;">
+    <div class="row">
+        <div class="col-md-6 footer-contact-info text-right pr-3">
+            Developed by Sunil Giri ❤️
+            <a href="mailto:seungiri841@gmail.com">seungiri841@gmail.com</a>
         </div>
-    </footer>
+        <div class="col-md-6 footer-contact-info text-left pl-3">
+            &copy; 2023 Copyright:
+            <a href='http://localhost:8000'>Deliver</a>
+            <a class="ml-4" href="{% url 'logout' %}">Restaurant Logout</a>
+        </div>
+    </div>
+</footer>

@@ -1,5 +1,4 @@
-## first cd deliver
-## then python manage.py runserver
+
 
 from django.shortcuts import render, redirect, HttpResponse
 from django.views import View
