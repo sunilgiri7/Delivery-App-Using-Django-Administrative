@@ -1,4 +1,7 @@
-
+## first cd deliver
+## then python manage.py runserver
+## admin id: asus, pass: wrongpassword
+## login id: seun pass: loveyou
 
 from django.shortcuts import render, redirect, HttpResponse
 from django.views import View
